@@ -1,0 +1,11 @@
+Given an array of coins, find the maximum amount you can get if you get the first turn to pick a coin from either side. Coin can be picked from either side only.
+
+					  							     	4,1,3,6,7,8
+					  							 /        max         \
+					    			4+ {1,3,6,7,8}                8  + {4,1,3,6,7}	
+					    			      /        \                       /       \ 
+					    		 Min ({1, 3, 6, 7} ,{3,6,7,8} )     min(4,1,3,6} , (1,3,6,7))
+					    		       /          \
+					    		1+ min({6,7}, {3,6})
+					    		
+	
